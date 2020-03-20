@@ -5,6 +5,7 @@ using namespace std;
 
 int main()
 {
+
 	//进行图片二值化
 	cv::Mat src = imread("E:\\PIC\\IMG_1989.jpg", 0);
 	cv::Mat binaryMat;
